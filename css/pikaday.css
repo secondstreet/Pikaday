@@ -43,6 +43,10 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     margin: 8px;
 }
 
+.pika-wrapper {
+    clear: both;
+}
+
 .pika-title {
     position: relative;
     text-align: center;
