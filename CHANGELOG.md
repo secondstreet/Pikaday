@@ -1,9 +1,40 @@
 # Changelog
 
+## 1.7.0 - TBA
+
+- Add keyboard input option, see #610
+
+## 1.6.1 - 2017-06-06
+
+- Fix memory leak, fixes #630
+
+## 1.6.0 - 2017-05-31
+
+- Add custom parsers, see #613
+- Re-introduce correct null behavor, fixes #654
+- Pick a whole week, see #516
+- Added `events` option: dates that you would like to differentiate from regular days, see #152
+- Fix the (re)position issue, see #643, #642
+- Configure if field is blurred when date is selected, see #631
+- Prevent error when no field is bound, fixes #611
+
+## 1.5.1 - 2016-10-28
+
+- Only set attribute if field is bound, see #567
+
+## 1.5.0 - 2016-10-27
+
+- Make Pikaday accessibile, see #522
+- Add possibility to reset the max and min date to the date picker
+- Make Pikaday XHTML compatible, see #492
+- Remove unnecessary setTimeout call, fixes #496
+- Make disabled buttons not clickable in IE 10 and below, fixes #288
+- Show days in next and previous months
+
 ## 1.4.0 - 2015-10-30
 
-- Fix touch device support, see #374, #276, #301, #303, #324, #366 and #386
-- Add theme example with triangles added to the dropdowns, see #380
+- Fix touch device support, see #374
+- Add possibility to reset the max and min date to the date picker
 
 ## 1.3.3 - 2015-02-17
 
