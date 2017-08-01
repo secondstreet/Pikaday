@@ -24,7 +24,7 @@
     "package.json"
   ],
   "license" : [
-    "BSD",
+    "0BSD",
     "MIT"
   ],
   "homepage": "https://github.com/owenmead/Pikaday",
