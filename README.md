@@ -1,5 +1,9 @@
+:sleeping: Deprecated - No Longer Maintained :sleeping:
+====
+As you can tell from the lack of commits, I'm no longer maintaining this. Leaving it up as a reference, or if someone would like to carry it on as the main maintainer.
+
 Pikaday - With Time Picker
-========
+===========
 
 ### Key Config Changes
 
