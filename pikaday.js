@@ -547,16 +547,8 @@
                         }
                     }
                     self.setDate(newDate);
-                    if (opts.bound) {
-                        sto(function() {
-                            if (opts.autoClose) {
-                                self.hide();
-                            }
-                            if (opts.blurFieldOnSelect && opts.field) {
-                                opts.field.blur();
-                            }
-                        }, 100);
-                    }
+                    self._c = true;
+                    return;
                 }
                 else if (hasClass(target, 'pika-prev')) {
                     self.prevMonth();
